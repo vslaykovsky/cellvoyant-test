@@ -1,0 +1,2 @@
+sequence,idx,fname,split,image_url
+E11_11,21,data/cellvoyant/TrainVal/E11_11-21.ome_8bit.tif,TrainVal,https://storage.googleapis.com/vslaykovsky/cv/E11_11-21.ome_8bit.tif.png
