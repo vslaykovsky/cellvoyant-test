@@ -3,8 +3,7 @@ MODEL:
   BACKBONE:
     NAME: "build_fcos_vovnet_fpn_backbone"
     FREEZE_AT: 0
-  WEIGHTS: "/home/vslaykovsky/cellvoyant/models/LIVECell_anchor_free_model.pth"
-#  WEIGHTS: "/home/vslaykovsky/cellvoyant/data/output/model_0000024.pth"
+  WEIGHTS: "models/LIVECell_anchor_free_model.pth"
   VOVNET:
     CONV_BODY : "V-99-eSE"
     OUT_FEATURES: ["stage3", "stage4", "stage5"]
@@ -59,4 +58,4 @@ TEST:
   DETECTIONS_PER_IMAGE: 2000 # 1000
 DATALOADER:
   NUM_WORKERS: 12
-OUTPUT_DIR: "/home/vslaykovsky/cellvoyant/data/output"
+OUTPUT_DIR: "data/output"
